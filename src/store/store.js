@@ -6,7 +6,7 @@ const store = configureStore({
     reducer: {
         counter: counterSlice.reducer,
         auth: authSlice.reducer,
-    } // NOTE can be an array or map too
+    } // NOTE can be a map too
 })
 
 export default store
